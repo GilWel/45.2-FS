@@ -1,4 +1,5 @@
 import './homework01.css'
+import imageMyFoto from "../../assets/Foto.jpg"
 
 
 function Homework01() {
@@ -7,7 +8,7 @@ function Homework01() {
       <div>
        
       <h1> Привет! Меня зовут Гиляна </h1>
-          
+          <img src={imageMyFoto} alt="" />
 
       <h2>Я живу в Германии, город Саарбрюккен</h2>
      
