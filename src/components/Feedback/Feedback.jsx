@@ -8,7 +8,7 @@ export default function Feedback (){
     const handelLike = () =>{
         setCount(prev => prev + 1);
     }
-    const handelDillike = ()=>{
+    const handelDislike = ()=>{
         setCount(prev => prev - 1);
     }
     const ClearValue = ()=> {
@@ -22,7 +22,7 @@ export default function Feedback (){
             <div>
             <button onClick={handelLike}> Like </button>
             <span>{count}</span>
-            <button onClick={handelDillike}> Dislike </button>
+            <button onClick={handelDislike}> Dislike </button>
             
             <button onClick={ClearValue}> Clear </button>
 
