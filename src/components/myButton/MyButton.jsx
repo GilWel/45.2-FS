@@ -1,3 +1,9 @@
-export default function MyButton({func,text}){
-    return <button onClick = {func}>{text}</button>
+import MyInput from "../myInput/MyInput";
+
+export default function MyButton({type = "button", func,text}){
+   
+    return (
+    <button type = {type} onClick = {func}>{text}</button>
+
+    )
 }

@@ -2,7 +2,7 @@
 
 import MyButton from "../myButton/MyButton";
 
-function UserCard({name, age, lastname}) {
+function UserCard({name, age, lastname, type}) {
 
 // const name = props.name
 // const age = props.age
