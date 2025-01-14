@@ -1,9 +1,10 @@
 
 
 import './App.css'
-import Homework02 from './Homework/Homework02/Homework02'
 // import Homework02 from './Homework/Homework02/Homework02'
-  // import Homework03 from './Homework/Homework03/Homework03'
+// import Lesson05 from './Lesson/Lesson05/Lesson05'
+// import Homework02 from './Homework/Homework02/Homework02'
+  import Homework03 from './Homework/Homework03/Homework03'
 //import Homework04 from './Homework/Homework04/Homework04'
 
 // import Homework01 from './Homework/Homework01/homework01'
@@ -25,9 +26,10 @@ function App() {
     {/* <Homework01/> */}
     {/* <Lesson03/> */}
     {/* <Lesson04 /> */}
-    <Homework02 />
-    {/* <Homework03 /> */}
+    {/* <Homework02 /> */}
+    <Homework03 />
     {/* <Homework04 /> */}
+    {/* <Lesson05 /> */}
 
 
 
